@@ -3,37 +3,57 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css-aumigos.css">
         <title>Cachorros</title>
-        <style>img{width:100px; height:100px}
-                #procurados{width:200px;height:300px;}
-        </style>
     </head>
     <body>
-        <section>
-            <h1>Busca por Aumigos</h1>
-            <img src="https://png.pngtree.com/png-clipart/20250128/original/pngtree-a-cat-with-hat-on-its-head-and-magnifying-glass-transparent-png-image_19596909.png"><br>
-            <a href="index._lost.html">Home</a>
-            <a href="cachorros.html">Cachorros</a>
-            <a href="gatos.html">Gatos</a>
-            <a href="variados.html">Variados</a>
-            <a href="sobrenos.html">Sobre Nós</a>
+        <section id="cabecalho">
+            <header id="logo">
+                <h1>Busca por Aumigos</h1>
+                <img src="https://png.pngtree.com/png-clipart/20250128/original/pngtree-a-cat-with-hat-on-its-head-and-magnifying-glass-transparent-png-image_19596909.png"><br>
+            </header>
+            <footer id="paginas">
+                <a href="index._lost.html">Home</a>
+                <a href="cachorros.html">Cachorros</a>
+                <a href="gatos.html">Gatos</a>
+                <a href="variados.html">Variados</a>
+                <a href="sobrenos.html">Sobre Nós</a>
+            </footer>
         </section>
         <section id="animais">
-            <article id="Felix">
-                <img id="procurados" src="https://www.portaldodog.com.br/wp-content/uploads/2022/11/cute-spitz-scaled.jpg" alt="Cachorro Felix">
+            <article class="procurados">
+                <img src="https://www.portaldodog.com.br/wp-content/uploads/2022/11/cute-spitz-scaled.jpg" alt="Cachorro Felix">
+                <div class="descricao">
                 <h2>Felix,Desaparecido em 20/07/20XX</h2>
                 <p>Cachorro da cor caramelo/dourado<br>5 Anos<br>7 kg<br>Foi visto por último no KM 18,Osasco-SP<br>Número para contato: (11) 656-312</p>
+                </div>
             </article>
-            <article id="Franscisco">
-                <img id="procurados" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQznkfqfOBoDTuq85zgEnInxKmcb8qdXhW8Pw&s" alt="Pinscher nada hostil">
+            <article class="procurados">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQznkfqfOBoDTuq85zgEnInxKmcb8qdXhW8Pw&s" alt="Pinscher nada hostil">
+                <div class="descricao">
                 <h2>Francisco,Desaparecido em 12/06/20XX</h2>
                 <p>Cachorro preto e marrom<br>10 anos<br>4 kg<br>Foi visto por último no Jardim Adalgisa,Osasco-SP<br>Número para contato: (11) 599-266</p>
+                </div>
             </article>
-            <article id="Dante">
-                <img id="procurados" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxW1VYceivVW3OkJ5bCDpmIXcPdN7kpnQYoQ&s" alt="Cachorro branco">
+            <article class="procurados">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxW1VYceivVW3OkJ5bCDpmIXcPdN7kpnQYoQ&s" alt="Cachorro branco">
+                <div class="descricao">
                 <h2>Dante,Desaparecido em 30/11/20XX</h2>
                 <p>Cachorro branco e marrom<br>1 ano<br>2kg<br>Foi visto por úlitmo na Vila Campesina,Osasco-SP<br>Número para contato: (11) 551-902</p>
+                </div>            
             </article>        
+        </section>
+        <section id="contato">
+            <form>
+                <h2>Entre em contato conosco:</h2>
+                Nome: <input type="text" name="Nome:" required><br>
+                E-mail: <input type="email" name="email" required>
+                Telefone: <input type="tel" name="telephone" required><br>
+                Cachorro: <input type="radio">
+                Gato: <input type="radio">
+                Variados: <input type="radio"><br>
+                <button type="submit">Enviar</button>
+            </form>
         </section>
 </body>
 </html>
