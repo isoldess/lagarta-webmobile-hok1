@@ -13,3 +13,7 @@ Utilizamos também um sistema simples para alterar de páginas, estando no come�
 CSS:
 
 Ao desenvolver o CSS da página foi pensado no conforto visual do usuário e maior praticidade de acesso,utilizando-se de cores amenas e seções facilmente localizáveis por meio de espaços (margin:2vh;) separando os contéudos e simplificando o acesso do usuário. O formulário foi colocado no canto superior direito da página para melhor localização e menos esforço nescessário para compreender as opções apresentadas para o cliente, a fim de manter a atenção do usúario ao conteúdo. Totalmente segmentado e prático para uso diário. 
+
+JavaScript:
+
+Validação de formulário
